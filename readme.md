@@ -32,11 +32,11 @@ Kurs_Semester_Semesternummer_Modulnr_Modulname__AufgabeInnerhalbDesKurses
 
 ### Aufgaben: 
 - index-html erstellen.  												Status: erledigt. 	Bearbeiter: Julian
-- Impressum erstellen. 													Status: ongoing. 	Bearbeiter: 
-- div-Container für Formatierung festlegen								Status: ongoing. 	Bearbeiter: 
-- css dazu erstellen und in index und Impressum einbinden				Status: ongoing. 	Bearbeiter: 
+- Impressum erstellen. 													Status: ongoing. 	Bearbeiter: Anna-Lena
+- div-Container für Formatierung festlegen								Status: ongoing. 	Bearbeiter: Sven
+- css dazu erstellen und in index und Impressum einbinden				Status: ongoing. 	Bearbeiter: Maximilian
 - (jeder) css in „seiner Datei“ einbinden								Status: ongoing. 	Bearbeiter: 
-- Abbildungsverzeichnis anlegen											Status: ongoing. 	Bearbeiter: 
+- Abbildungsverzeichnis anlegen											Status: ongoing. 	Bearbeiter: Antje
 - (jeder) Abbildung in „seiner Datei“ einbinden							Status: ongoing. 	Bearbeiter: 
 - einer: CSS in allen Dateien einbinden inkl. Umschreiben div-Container	Status: ongoing. 	Bearbeiter: 
 - fancy Logo einbinden / Header und Footer auf den Seiten				Status: ongoing. 	Bearbeiter: 
