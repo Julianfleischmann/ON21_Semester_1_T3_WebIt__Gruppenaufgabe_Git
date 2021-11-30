@@ -43,7 +43,7 @@ Kurs_Semester_Semesternummer_Modulnr_Modulname__AufgabeInnerhalbDesKurses
 - css dazu erstellen und in index und Impressum einbinden				Status: ongoing. 	Bearbeiter: Maximilian
 - (jeder) css in „seiner Datei“ einbinden								Status: ongoing. 	Bearbeiter: alle
 - Abbildungsverzeichnis anlegen											Status: ongoing. 	Bearbeiter: Antje
-- (jeder) Abbildung in „seiner Datei“ einbinden							Status: ongoing. 	Bearbeiter: 
+- (jeder) Abbildung in „seiner Datei“ einbinden							Status: ongoing. 	Bearbeiter: alle
 - einer: CSS in allen Dateien einbinden inkl. Umschreiben div-Container	Status: ongoing. 	Bearbeiter: Sven
 - fancy Logo einbinden / Header und Footer auf den Seiten				Status: ongoing. 	Bearbeiter: Heiko
 - Korrekturlesen auf inhaltliche Korrektheit 							Status: ongoing. 	Bearbeiter: Laura
