@@ -38,6 +38,7 @@ Kurs_Semester_Semesternummer_Modulnr_Modulname__AufgabeInnerhalbDesKurses
 
 ### Aufgaben: 
 - index-html erstellen.  												Status: erledigt. 	Bearbeiter: Julian
+- Git Befehlserklärung in die Index.html 								Status: ongoing. 	Bearbeiter: Olga
 - Impressum erstellen. 													Status: ongoing. 	Bearbeiter: Anna-Lena
 - div-Container für Formatierung festlegen								Status: ongoing. 	Bearbeiter: Sven
 - css dazu erstellen und in index und Impressum einbinden				Status: ongoing. 	Bearbeiter: Maximilian
