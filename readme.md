@@ -32,6 +32,9 @@ STATUS: Aufgabe ist in Arbeit
 ON21_Semester_1_T3_WebIt__Gruppenaufgabe_Git
 Kurs_Semester_Semesternummer_Modulnr_Modulname__AufgabeInnerhalbDesKurses
 
+### Branches
+- Main (Branch Protection. 2 User müssen den Pull Request bestätigen.)
+- Development 
 
 ### Aufgaben: 
 - index-html erstellen.  												Status: erledigt. 	Bearbeiter: Julian
@@ -41,7 +44,7 @@ Kurs_Semester_Semesternummer_Modulnr_Modulname__AufgabeInnerhalbDesKurses
 - (jeder) css in „seiner Datei“ einbinden								Status: ongoing. 	Bearbeiter: alle
 - Abbildungsverzeichnis anlegen											Status: ongoing. 	Bearbeiter: Antje
 - (jeder) Abbildung in „seiner Datei“ einbinden							Status: ongoing. 	Bearbeiter: 
-- einer: CSS in allen Dateien einbinden inkl. Umschreiben div-Container	Status: ongoing. 	Bearbeiter: 
+- einer: CSS in allen Dateien einbinden inkl. Umschreiben div-Container	Status: ongoing. 	Bearbeiter: Sven
 - fancy Logo einbinden / Header und Footer auf den Seiten				Status: ongoing. 	Bearbeiter: 
 - Korrekturlesen auf inhaltliche Korrektheit 							Status: ongoing. 	Bearbeiter: Laura
 - Prüfung auf grafische Korrektheit										Status: ongoing. 	Bearbeiter: Laura
