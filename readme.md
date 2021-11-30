@@ -23,6 +23,9 @@ Sven Schuppel
 Julian Fleischmann
 @julianfleischmann
 
+Heiko König
+@Heikoenig
+
 STATUS: Aufgabe ist in Arbeit
 
 ### Naming-Convention of the repo:
