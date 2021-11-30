@@ -43,5 +43,5 @@ Kurs_Semester_Semesternummer_Modulnr_Modulname__AufgabeInnerhalbDesKurses
 - (jeder) Abbildung in „seiner Datei“ einbinden							Status: ongoing. 	Bearbeiter: alle
 - einer: CSS in allen Dateien einbinden inkl. Umschreiben div-Container	Status: ongoing. 	Bearbeiter: 
 - fancy Logo einbinden / Header und Footer auf den Seiten				Status: ongoing. 	Bearbeiter: 
-- Korrekturlesen auf inhaltliche Korrektheit 							Status: ongoing. 	Bearbeiter: 
-- Prüfung auf grafische Korrektheit										Status: ongoing. 	Bearbeiter: 
+- Korrekturlesen auf inhaltliche Korrektheit 							Status: ongoing. 	Bearbeiter: Laura
+- Prüfung auf grafische Korrektheit										Status: ongoing. 	Bearbeiter: Laura
