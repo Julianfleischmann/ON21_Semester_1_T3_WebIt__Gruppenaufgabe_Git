@@ -1,0 +1,9 @@
+body {
+    font-family:Arial, Verdana, sans-serif;
+}
+h1 {
+    font-size:50px;
+    font-weight:bold;
+    text-shadow: 0,0 3px #ccc;
+    text-align: center;
+}

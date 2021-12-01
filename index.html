@@ -2,8 +2,8 @@
 <html lang="de">
     <head>
         <meta charset="UTF-8">
-        <title>Git Übungen</title>
-        <link rel="stylesheet" href="../_public/src/css/all.css"/>
+        <title>Git Befehle</title>
+        <link rel="stylesheet" href="index.css" type="text/css"/>
         <link rel="icon" type="image/png" href="../_public/src/img/icons/DHBW-Favicon.png">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
@@ -35,8 +35,96 @@
 
             <!-- First Section START -->
             <section>
-
-            </section>
+            <h1>Git Befehle</h1>
+            <img src="Abbildung.png" alt="Abbildung von Learn Git Branching"/>
+                <p>Git ist das am weitesten verbreitete Versionsverwaltungssystem der Welt. Das Programm, das 2005 von Linus Torvalds entwickelt wurde, ist für viele Softwareentwickler unverzichtbar geworden.</p>
+            <p>Kommerzielle und Open-Source-Projekte vertrauen auf Git.</p>
+            <p>Doch was wäre die Software ohne ihre Befehle? Auf dieser Webseite möchten wir uns achtzehn der wichtigsten Git Befehle einmal näher ansehen.</p>
+            <p>  </p>
+            <h2>Initialisierung</h2>
+            <p><strong>git init</strong></p>
+            <p>Durch die Ausführung des Befehls git init wird ein neues Repository erzeugt.Dabei kann zwischen zwei Nutzungsarten unterschieden werden. Entweder er wird für die Konvertierung eines bestehenden Projektes in ein Git-Repository verwendet, oder zur Erstellung eines ganz neuen und noch leeren Repositorys. Der Befehl erstellt im Arbeitsverzeichnis ein Unterverzeichnis, das alle notwendigen Metadaten für das Repository enthält. Der erste Befehl, der in einem Projekt meist ausgeführt wird, ist also git init. </p>
+            <h2>Klonen</h2>
+            <p><strong>git clone [url]</strong></p>
+            <p>Ein schon (auf GitHub) existierendes Repository kann durch git clone lokal heruntergeladen werden. Es wird ein Klon, beziehungsweise eine Kopie erstellt. Alle Dateien, branches und commits bleiben dabei enthalten. Ähnlich wie git init ist auch git clone ein Befehl, der in der Regel nur einmal ganz am Anfang des Projektes ausgeführt wird.</p>
+            <p><a href="">mehr erfahren</a></p>
+            <h2>Anzeigen der commit-Historie</h2>
+            <p><strong>git log</strong></p>
+            <p>Im Laufe eines Projektes kann der Fall auftreten, dass ein Teammitglied zurückschauen möchte, um einen Überblick über die getane Arbeit zu bekommen. Am einfachsten geht das über den Befehl git log. Er listet alle existierenden commits des Projektes in chronologischer Reihenfolge auf, von neu nach alt. Zusätzlich werden Informationen wie die Prüfsumme, der Name, die Mailadresse des Autors, das Erstellungsdatum und die commit-Beschreibung ausgegeben. Auch wenn man ein Repository mit bestehender Historie geklont hat, kann git log sehr hilfreich sein, um zu erfahren was wann wie geschehen ist. </p>
+            <h2>Vergleich</h2>
+            <p><strong>git diff [first-branch]…[second-branch]</strong></p>
+            <p>Mit dem Befehl git diff können die Unterschiede zweier Datenquellen ausgegeben werden. Diese Datenquellen können beispielsweise commits, branches und Dateien sein. Häufig wird der Befehl im Zusammenhang mit git log verwendet, wenn ein Repository untersucht werden soll.</p>
+            <h2>Anzeigen</h2>
+            <p><strong>git show [commit]</strong></p>
+            <p>Über diesen Befehl lassen sich Metadaten und andere erweiterte Details zu einem bestimmten Objekt ausgeben. Dies können Blobs, Strukturen, Tags und Commits sein. Je nach Objekttyp zeigt der Befehl ein spezifisches Verhalten. Für Tags werden beispielsweise die Tag-Nachricht und andere im Tag enthaltene Objekte angezeigt.</p>
+            <h2>Datei zum Index hinzufügen</h2>
+            <p><strong>git add [file]</strong></p>
+            <p>Mit dem Befehl git add werden Änderungen aus dem Arbeitsverzeichnis zur Staging-Umgebung hinzugefügt. Damit wird git angewiesen, Aktualisierungen einer bestimmten Datei in den nächsten Commit aufzunehmen. Der Befehl hat also bis zur nächsten Ausführung von git commit keine Auswirkung auf das Repository.</p>
+            <p><a href="">mehr erfahren</a></p>
+            <h2>Änderungen speichern</h2>
+            <p><strong>git commit</strong></p>
+            <p>Durch die Ausführung von git commit wird ein commit, also ein Schnappschuss des Repositorys erstellt. Commits sind Momentaufnahmen des gesamten Repositorys zu einem bestimmten Zeitpunkt. Git commit sollte häufig und basierend auf logischen Änderungseinheiten ausgeführt werden. Über commits kann im Nachhinein die Entstehung des Repositorys nachvollzogen werden. Neben dem Inhalt enthalten sie Metadaten wie den Autor und den Zeitstempel.</p>
+            <p><a href="">mehr erfahren</a></p>
+            <h2>Herunterladen</h2>
+            <p><strong>git fetch</strong></p>
+            <p>Um Dateien, commits und branches aus einem remote-Repository in ein lokales Repository herunterzuladen, gibt es den Befehl git fetch. Bei der Ausführung werden die Inhalte zwar heruntergeladen, es folgt aber keine automatische Aktualisierung der Dateien im lokalen Repository. Die aktuelle Arbeit bleibt also „sicher“. Das Abrufen des Befehls ist vor allem dann interessant, wenn man wissen möchte auf was für einem Arbeitsstand andere Teammitglieder sind</p>
+            <p><a href="">mehr erfahren</a></p>
+            <h2>Verschmelzung</h2>
+            <p><strong>git merge</strong></p>
+            <p>Git merge wir genutzt, um einen oder mehrere branches in den ausgecheckten branch zusammenzuführen. Es können also unabhängige Entwicklungszweige in einen einzigen branch integriert werden. Mit git merge werden mehrere commit-Abfolgen in einen einheitlichen Verlauf gebracht. Vor allem genutzt wird es aber, um zwei branches zu vereinen.</p>
+            <p><a href="">mehr erfahren</a></p>
+            <h2>Hochladen</h2>
+            <p><strong>git push</strong></p>
+            <p>Um Änderungen, die im lokalen Repository vorgenommen wurden, an das remote-Repository zu senden, verwendet man den Befehl git push. So werden die eigenen Änderungen für alle Teammitglieder zugänglich und einsehbar gemacht.</p>
+            <p><a href="">mehr erfahren</a></p>
+            <h2>Herunterladen und Verschmelzen</h2>
+            <p><strong>git pull</strong></p>
+            <p>Durch den Befehl git pull werden Inhalte von einem remote-Repository heruntergeladen und direkt in den aktuellen branch intergriert. Der Befehl ist eine Kombination aus git fetch und git merge. Durch das Ausführen von git pull spart man zwar Zeit, kann aber die Inhalte nicht auf mögliche Fehler untersuchen, bevor man sie in die eigene Datei überführt.</p>
+            <p><a href="">mehr erfahren</a></p>
+            <h2>Neuer Zweig / branch</h2>
+            <p><strong>git branch [branch-name]</strong></p>
+            <p>Mit dem Befehl git branch [branch-name] wird ein neuer branch erstellt. Dieser wird bei der Erstellung auch direkt benannt. Der neue branch wird allerdings nicht automatisch ausgecheckt.</p>
+            <p><a href="">mehr erfahren</a></p>
+            <h2>Einen Zweig / branch wechseln</h2>
+            <p><strong>git checkout [branch-name]</strong></p>
+            <p>Zwischen branches, die mit git branch erstellt wurden, kann mit dem Befehl git checkout gewechselt werden. Der branch, der gerade ausgecheckt ist, kann bearbeitet werden. Beim Auschecken eines branches werden die Dateien im Arbeitsverzeichnis aktualisiert und Git speichert alle neuen commits in dem ausgecheckten branch. Man kann also auswählen an welchem Entwicklungszweig man arbeiten möchte.</p>
+            <p><a href="">mehr erfahren</a></p>
+            <h2>Löschen eines Zweiges / branches</h2>
+            <p><strong>git branch -d [branch-name]</strong></p>
+            <p>Durch git branch -d kann der ausgewählte branch gelöscht werden.</p>
+            <h2>Umbauen</h2>
+            <p><strong>git rebase [branch-name]</strong></p>
+            <p>Mithilfe des Befehls git rebase kann eine Abfolge von commits in einem neuen Basis-commit verschoben oder zusammengeführt werden. Dabei ändert sich die Basis des branches von einem commit zu einem anderen. Es sieht dann so aus, als hätte man den branch von einem anderen commit erstellt. Die branches sehen zwar gleich aus, bestehen aber aus völlig neuen commits.</p>
+            <h2>„Herauspicken“</h2>
+            <p><strong>git cherry-pick [commit1] [commit2] […]</strong></p>
+            <p>Mit dem cherry-pick Befehl ist es möglich, einen beliebigen commit anhand einer Referenz auszuwählen und an den aktuellen Arbeits-HEAD anzuhängen. Ein commit wird aus einem branch ausgewählt und auf einen anderen angewendet. Der Befehl kann besonders hilfreich sein, um Änderungen rückgängig zu machen.</p>
+            <h2>Tag</h2>
+            <p><strong>git tag [tag-name] [ref/commit]</strong></p>
+            <p>Der Befehl git tag ist der Hauptbefehl für das Erstellen, Ändern und Löschen von Tags. Tags sind Referenzen, die auf bestimmte Zeitpunkte in der Historie verweisen. Nach der Erstellung haben Tags keinen weiteren Verlauf. Ein tag ähnelt einem branch, der sich nicht ändert.</p>
+            <h2>Status anzeigen</h2>
+            <p><strong>git status</strong></p>
+            <p>Der Befehl git status gibt den Status des Arbeitsverzeichnisses und der Staging-Umgebung zurück. So kann man sehen, welche Änderungen sich in der Staging-Umgebung befinden, welche nicht und welche Dateien nicht von Git verfolgt werden.</p>
+            <p><a href="">mehr erfahren</a></p>
+            <h3>Quellen</h3>
+            <ul>
+                <li> <a href="https://www.atlassian.com/de/git/tutorials/setting-up-a-repository/git-init" >https://www.atlassian.com/de/git/tutorials/setting-up-a-repository/git-init</a></li>
+                <li> <a href="https://www.atlassian.com/de/git/tutorials/what-is-git" >https://www.atlassian.com/de/git/tutorials/what-is-git</a></li>
+                <li> <a href="https://www.atlassian.com/de/git/tutorials/setting-up-a-repository/git-clone" >https://www.atlassian.com/de/git/tutorials/setting-up-a-repository/git-clone</a></li>
+                <li> <a href="https://git-scm.com/book/de/v2/Git-Grundlagen-Anzeigen-der-Commit-Historie" >https://git-scm.com/book/de/v2/Git-Grundlagen-Anzeigen-der-Commit-Historie</a></li>
+                <li> <a href="https://www.atlassian.com/de/git/tutorials/saving-changes/git-diff" >https://www.atlassian.com/de/git/tutorials/saving-changes/git-diff</a></li>
+                <li> <a href="https://git-scm.com/docs/git-show" >https://git-scm.com/docs/git-show</a></li>
+                <li> <a href="https://www.atlassian.com/de/git/tutorials/git-show" >https://www.atlassian.com/de/git/tutorials/git-show</a></li>
+                <li> <a href="https://www.atlassian.com/de/git/tutorials/saving-changes" >https://www.atlassian.com/de/git/tutorials/saving-changes</a></li>
+                <li> <a href="https://github.com/git-guides/git-commit" >https://github.com/git-guides/git-commit</a></li>
+                <li> <a href="https://www.atlassian.com/de/git/tutorials/syncing/git-fetch" >https://www.atlassian.com/de/git/tutorials/syncing/git-fetch</a></li>
+                <li> <a href="https://www.atlassian.com/de/git/tutorials/using-branches/git-merge" >https://www.atlassian.com/de/git/tutorials/using-branches/git-merge</a></li>
+                <li> <a href="https://git-scm.com/book/de/v2/Anhang-C%3A-Git-Kommandos-Branching-und-Merging" >https://git-scm.com/book/de/v2/Anhang-C%3A-Git-Kommandos-Branching-und-Merging</a></li>
+                <li> <a href="https://www.atlassian.com/de/git/tutorials/using-branches/git-checkout" >https://www.atlassian.com/de/git/tutorials/using-branches/git-checkout</a></li>
+                <li> <a href="https://www.atlassian.com/de/git/tutorials/rewriting-history/git-rebase" >https://www.atlassian.com/de/git/tutorials/rewriting-history/git-rebase</a></li>
+                <li> <a href="https://www.atlassian.com/de/git/tutorials/inspecting-a-repository/git-tag" >https://www.atlassian.com/de/git/tutorials/inspecting-a-repository/git-tag</a></li>
+                <li> <a href="https://www.atlassian.com/de/git/tutorials/inspecting-a-repository" >https://www.atlassian.com/de/git/tutorials/inspecting-a-repository</a></li>
+            </ul>
+        </section>
             <!-- First Section END -->
 
         </div>
