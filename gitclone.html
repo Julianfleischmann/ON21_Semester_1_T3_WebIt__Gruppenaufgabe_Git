@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <title>Git Befehle – Git clone</title>
+        <link rel="stylesheet" href="gitclone.css" type="text/css"/>
+        <link rel="icon" type="image/png" href="img/main/DHBW-Favicon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <!-- Begin of the header -->
+        <header>
+            <div class="main-navigation bg-secondary">
+                <div class="container">
+                    <!-- Begin of the navigation -->
+                    <nav class="navbar navbar-light bg-light navbar-expand-lg bg-secondary fixed-top">
+
+                        <a class="navbar-brand" href="#">
+                            <img src="DHBW-Logo.svg" width="200" class="d-inline-block align-top" alt="Fancy Logo">
+                        </a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!-- End of the header -->
+
+        <div class="content">
+
+            <!-- START Allgemeines zu Git-Pull -->
+            <section id="start" class="jf-headerimage">
+                <div class="container text-secondary pt-5 pb-5">
+                    <h1>GIT-Clone</h1>
+                    <h2>Allgemeine Beschreibung zu diesem Befehl</h2>
+                    <p>
+                        Ein schon (auf GitHub) existierendes Repository kann durch <strong>git clone</strong> lokal heruntergeladen werden. Dabei wird ein Klon, beziehungsweise eine exakte Kopie erstellt.
+                        <br>Alle Dateien, branches und commits bleiben dabei enthalten. Mit dem geklonten Repository kann dann lokal gearbeitet werden.
+                    </p>
+                    
+                </div>
+
+                <div>
+                    <figure>
+                        <img width="350px" src="Abbildung1.png" alt="Hier ist ein entferntes Repository dargestellt.">
+                        <img width="350px" src="Abbildung2.png" alt="Im nächsten SChritt wurde hier eine Kopie des Repositorys erstellt, es wurde geklont.">
+                        <figcaption>Das Repository sieht nach dem Klonen noch fast genau so aus wie davor. Das muss es auch, da eine exakte Kopie erstellt wird.</figcaption>
+                    </figure>
+                    
+                </div>
+            </section>
+            <!-- ENDE Allgemeines zu Git-Pull -->
+
+            <!-- START Wann Git-Pull verwenden? -->
+            <section id="start" class="jf-headerimage">
+                <div class="container text-secondary pt-5 pb-5">
+                    <h2>Wann GIT-Clone verwenden?</h2>
+                    <p>
+                        Ähnlich wie <strong>git init</strong> ist auch <strong>git clone</strong> ein Befehl, der in der Regel nur einmal ganz am Anfang des Projektes ausgeführt wird.
+                        <br>Zum Start benötigt man einmal alle schon erstellten Dateien und Ergebnisse.
+                        <br>Im Laufe des Projektes würde es allerdings keinen Sinn machen, das Repository noch einmal zu klonen, da man durch regelmäßige push und pull Befehle immer auf dem aktuellen Stand des Projektes sein sollte.
+                    </p>
+                </div>
+            </section>
+            <!-- ENDE Wann Git-Pull verwenden? -->
+
+        </div>
+    </body>
+
+<!-- Begin of the footer -->
+ <footer>
+    <div class="container text-secondary pt-5 pb-5">
+        <b>Quelle der Bilder und Screenshots</b>
+        <a href="https://learngitbranching.js.org/?locale=de_DE">https://learngitbranching.js.org/?locale=de_DE</a>
+    </div>
+
+ </footer>
+<!-- End of the footer -->
+
+</html>
