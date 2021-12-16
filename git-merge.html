@@ -30,9 +30,9 @@
         <p>Der tatsächliche Vorgang des Mergens, wird durch den Befehl "git merge" ausgeführt.</p>
         <p>Dabei muss der Name des Branches verwendet werden, der in den Merge-Ziel-Branch gemergt wird.</p>
         <br>
-        <img src="Zustand_vor_Merge.png" alt="Diese Abbildung zeigt die beiden Branches vor dem Merge." width=400px>
+        <img src="img/git-merge/Zustand_vor_Merge.png" alt="Diese Abbildung zeigt die beiden Branches vor dem Merge." width=400px>
         <figcaption>Diese Abbildung zeigt die beiden Branches, die durch Mergen zusammengeführt werden sollen.</figcaption>
-        <img src="Zustand_nach_Merge.png" alt="Diese Abbildung zeigt die beiden Branches nach dem Merge." width="400px">
+        <img src="img/git-merge/Zustand_nach_Merge.png" alt="Diese Abbildung zeigt die beiden Branches nach dem Merge." width="400px">
         <figcaption>Diese Abbildung zeigt die beiden Branches nach dem Merge.</figcaption>
         <br>
         <h2>Verschiedene Arten des Mergens</h2>
@@ -40,18 +40,18 @@
         <p>Diese Art des Mergens wird verwendet, wenn ein linearer Pfad von der Spitze des aktuellen Branches zum Ziel-Branch exisitiert.</p>
         <p>Git muss hier nicht die Branches tatsächlich zusammenführen, sondern nur die Spitze des aktuellen Branches an die Spitze des Ziel-Branches verschieben.</p>
         <p>Dies kombiniert die Verläufe miteinander und alle Commits aus dem Ziel-Branch sind so auch über den aktuellen Branch zugänglich</p>
-        <img src="Fast_Forward_vor.png" alt="Diese Abbildung zeigt den Zustand vor Durchführung des Fast-Forward-Merges." width="400px">
+        <img src="img/git-merge/Fast_Forward_vor.png" alt="Diese Abbildung zeigt den Zustand vor Durchführung des Fast-Forward-Merges." width="400px">
         <figcaption>Zustand vor Durchführung des Fast-Forward-Merges</figcaption>
-        <img src="Fast_Forward_nach.png" alt="Diese Abbildung zeigt den Zustand nach Durchführung des Fast-Forward-Merges." width="400px">
+        <img src="img/git-merge/Fast_Forward_nach.png" alt="Diese Abbildung zeigt den Zustand nach Durchführung des Fast-Forward-Merges." width="400px">
         <figcaption>Zustand nach Durchführung des Fast-Forward-Merges</figcaption>
         <br>
         <h3>3-Way-Merge</h3>
         <p>Diese Art des Mergens wird genutzt, wenn es keinen linearen Pfad zum Ziel-Branch gibt.</p>
         <p>Es existiert ein spezieller Commit für 3-Way-Merges, der die beiden Verläufe miteinander verknüpft.</p>
         <p>Der Name "3-Way-Merge" geht auf die Anzahl der Commits zurück, die git für die Durchführung des Merge-Commits benötigt (je 1 Commit für die beiden Branch-Spitzen, 1 Commit für ihren gemeinsamen Vorgänger).</p>
-         <img src="3-Way_vor.png" alt="Diese Abbildung zeigt den Zustand vor Durchführung des 3-Way-Merges." width="400px">
+         <img src="img/git-merge/3-Way_vor.png" alt="Diese Abbildung zeigt den Zustand vor Durchführung des 3-Way-Merges." width="400px">
         <figcaption>Zustand vor Durchführung des 3-Way-Merges</figcaption>
-         <img src="3-Way_nach.png" alt="Diese Abbildung zeigt den Zustand nach Durchführung des 3-Way-Merges." width="400px">
+         <img src="img/git-merge/3-Way_nach.png" alt="Diese Abbildung zeigt den Zustand nach Durchführung des 3-Way-Merges." width="400px">
         <figcaption>Zustand vor Durchführung des 3-Way-Merges</figcaption>
         <!--Quelle:   https://www.atlassian.com/de/git/tutorials/using-branches/git-merge
                     //https://learngitbranching.js.org/?locale=de_DE -->
