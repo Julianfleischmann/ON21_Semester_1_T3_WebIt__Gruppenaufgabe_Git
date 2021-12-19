@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <title>Git Push</title>
+        <link rel="stylesheet" href="default.css"/>
+        <link rel="icon" type="image/png" href="img/main/DHBW-Favicon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+
+
+            <header>
+                <div class="wrapper">
+                    <img id="logo" src="img/main/DHBW-Logo.svg" alt="Fancy Logo">
+                    <nav class="main">
+                        <ul>
+                            <li>
+                                <a href="index.html">Start</a>
+                            </li>
+                            <li>
+                                <a href="gitclone.html">Git Clone</a>
+                            </li>
+                            <li>
+                                <a href="git-merge.html">Git Merge</a>
+                            </li>
+                            <li>
+                                <a href="git-pull.html">Git Pull</a>
+                            </li>
+                            <li>
+                                <a href="git-push.html">Git Push</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+
+    
+            <section class="main">
+                <div class="keyvisual">
+                    <div class="wrapper">
+                        <div class="teaser">
+                            <h1>GIT-Pull</h1>
+                            <h2>Allgemeine Beschreibung zu diesem Befehl</h2>
+                            <p>
+                                <b>git pull</b> ist ein Befehl, welcher die Befehle "<b>git fetch</b>" und "<b>git merge</b>" vereint. Dadurch erstpart sich der Nutzer / die Nutzerin einen Schritt.<br>
+                                Das ist deshalb notwendig, weil dieser Schritt so häufig benötigt wird und so den "faulen" Entwickler:innen ein Klick zu viel erspart wird.
+                            </p>
+                        
+
+                                <img width="350px" src="img/git-pull/Git_Pull_Merge.png" alt="Git pull und git fetch mit merge sind das selbe Ergebnis">
+                                <img width="350px" src="img/git-pull/Git_Pull_Merge.png" alt="Git pull und git fetch mit merge sind das selbe Ergebnis">
+                                <figcaption>Git Push und Git fetch mit anschließendem merge führen zu dem selben Ergebnis</figcaption>
+
+                        
+                            <h2>Wann GIT-Pull verwenden?</h2>
+                            <p>
+                                <b>git pull</b> wird am besten "zu Beginn eines jeden Arbeitstages" verwendet.<br>
+                                Damit holt man sich den aktuellen Stand des Repositories auf den Lokalen Rechner und arbeitet stets mit dem aktuellen Stand und hat diesen auch gleich in seinen eigenen gemerged.<br>
+                                Zudem hilft es, vor einem git Push den jeweils aktuellen Stand zu pullen, damit man der Fehlermeldung von Git zuvorkommt, welche einen darauf hinweist, dass bereis extern eine Änderung durchgeführt wurde.<br>
+                                Spätestens dann muss sowieso ein <b>git pull</b> durchgeführt werden.
+                            </p>
+                        </div>    
+                    </div>
+            </section>
+        </div>
+        <footer>
+            <div class="wrapper">
+                <nav class="footer">
+                    <b>Quelle der Bilder und Screenshots</b>
+                    <a href="https://learngitbranching.js.org/?locale=de_DE">Learngitbranching</a>
+                </nav>
+            </div>
+        </footer>
+    </body>
+</html>
