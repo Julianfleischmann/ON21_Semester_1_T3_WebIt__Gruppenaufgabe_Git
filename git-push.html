@@ -40,25 +40,23 @@
                 <div class="keyvisual">
                     <div class="wrapper">
                         <div class="teaser">
-                            <h1>GIT-Pull</h1>
+                            <h1>GIT-Push</h1>
                             <h2>Allgemeine Beschreibung zu diesem Befehl</h2>
                             <p>
-                                <b>git pull</b> ist ein Befehl, welcher die Befehle "<b>git fetch</b>" und "<b>git merge</b>" vereint. Dadurch erstpart sich der Nutzer / die Nutzerin einen Schritt.<br>
-                                Das ist deshalb notwendig, weil dieser Schritt so häufig benötigt wird und so den "faulen" Entwickler:innen ein Klick zu viel erspart wird.
+                                Aktualisiert Remote-Daten mit lokalen Daten, während Objekte gesendet werden, die zum Vervollständigen der angegebenen Daten erforderlich sind.
                             </p>
-                        
 
-                                <img width="350px" src="img/git-pull/Git_Pull_Merge.png" alt="Git pull und git fetch mit merge sind das selbe Ergebnis">
-                                <img width="350px" src="img/git-pull/Git_Pull_Merge.png" alt="Git pull und git fetch mit merge sind das selbe Ergebnis">
-                                <figcaption>Git Push und Git fetch mit anschließendem merge führen zu dem selben Ergebnis</figcaption>
-
-                        
-                            <h2>Wann GIT-Pull verwenden?</h2>
+                            <h2>Wann GIT-Push verwenden?</h2>
                             <p>
-                                <b>git pull</b> wird am besten "zu Beginn eines jeden Arbeitstages" verwendet.<br>
-                                Damit holt man sich den aktuellen Stand des Repositories auf den Lokalen Rechner und arbeitet stets mit dem aktuellen Stand und hat diesen auch gleich in seinen eigenen gemerged.<br>
-                                Zudem hilft es, vor einem git Push den jeweils aktuellen Stand zu pullen, damit man der Fehlermeldung von Git zuvorkommt, welche einen darauf hinweist, dass bereis extern eine Änderung durchgeführt wurde.<br>
-                                Spätestens dann muss sowieso ein <b>git pull</b> durchgeführt werden.
+                                Git push wird üblicherweise verwendet, um lokale Änderungen in einem zentralen Repository zu veröffentlichen und hochzuladen. Nach dem Vornehmen von 
+                                Änderungen an einem lokalen Repository werden die Änderungen per Push für Teammitglieder an anderen Standorten freigegeben.Veröffentlichen von Änderungen mit "git push"
+                            </p>  
+
+                            <img width="40%" src="img/git-push/eins.png" alt="Veröffentlichen von Änderungen mit git push Teil 1">
+                            <img width="40%" src="img/git-push/zwei.png" alt="Veröffentlichen von Änderungen mit git push Teil 2">
+                            <p>    
+                                Das Diagramm oben verdeutlicht, was passiert, wenn dein lokaler master aktueller ist als der master des zentralen Repositorys und du Änderungen per git push origin master 
+                                veröffentlichst. Du siehst: git push arbeitet im Grunde genommen genauso wie git merge master im Remote-Repository.
                             </p>
                         </div>    
                     </div>
@@ -68,7 +66,7 @@
             <div class="wrapper">
                 <nav class="footer">
                     <b>Quelle der Bilder und Screenshots</b>
-                    <a href="https://learngitbranching.js.org/?locale=de_DE">Learngitbranching</a>
+                    <a href="https://www.atlassian.com/de/git/tutorials/syncing/git-push">Atlassian</a>
                 </nav>
             </div>
         </footer>
