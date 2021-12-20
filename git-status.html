@@ -2,7 +2,7 @@
 <html lang="de">
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <title>Git Übungen Git-commit</title>
+    <title>Git Übungen Git-status</title>
     <link rel="stylesheet" href="" />
     <link rel="icon" type="image/png" href="img/main/DHBW-Favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -29,19 +29,19 @@
         <!-- START Allgemeines zu Git-Commit -->
         <section id="start" class="jf-headerimage">
             <div class="container text-secondary pt-5 pb-5">
-                <h1>GIT-Commit</h1>
+                <h1>GIT-Status</h1>
                 <h2>Allgemeine Beschreibung zu diesem Befehl</h2>
                 <p>
-                    <b>git commit</b> ist ein Befehl, welcher die aktuellen Änderungen auf den Branch comittet auf dem man sich gerade befindet.
-                    Der Commit Befehl ist ein zentraler Befehl von Git. Dieser übernimmt die Änderung auf dem lokalen Branch. Später kann dann der Commit auf den Remote-Server gepushed werden.
+                    <b>git status</b> ist ein Befehl, welcher den aktuellen Status auf dem aktuellen Branch auf dem man sich befindet anzeigt.
+                    Der Befehl dient zu übersicht um sich anzeigen zu lassen. Was hat man bis jetzt geändert. Ebenso bekommt man seinen aktuellen Branch angezeigt. 
                 </p>
             </div>
 
             <div>
                 <figure>
-                    <img width="350" height="350" src="img/git-commit/git-commit-1.png" alt="Git Baum-Struktur mit 2 Commits c0 und c1. Im main Branch">
-                    <img width="350" height="350" src="img/git-commit/git-commit-2.png" alt="Git Baum-Struktur nach dem neuen Commit mit 3 commits c0,c1 und c2. Im main Branch">
-                    <figcaption>Vor und Nach dem Commit im Main Branch</figcaption>
+                    <img height="350" src="img/git-status/git-status.png" alt="Konsolen Ausgabe nach der Eingabe von git status">
+                  
+                    <figcaption>Typische Konsolenausgabe für git status</figcaption>
                 </figure>
 
             </div>
@@ -50,13 +50,14 @@
         <!-- START Git-Commit best Practies? -->
         <section id="start" class="jf-headerimage">
             <div class="container text-secondary pt-5 pb-5">
-                <h2>GIT-Commit best practice!</h2>
+                <h2>GIT-status</h2>
                 <p>
-                    Bei <b>git commit</b> gilt: 
+                    Ein paar optionen für <b>git status</b>: 
                         <BLOCKQUOTE>
-                            Viele kleine Commits sind besser als wenig große Commits.<br />
-                            Ebenso sollte der Commit eine Aussagekräftiges Nachricht haben. Diese soll den Commit kurz und präzise beschreiben..<br />
-                            Fokusiere dich bei dem Commit auf eine Aufgabe. Für verschiedene Probleme verschiedene Commits!.<br />
+                            --short : Ausgabe in Kurz Format.<br />
+							--long : Standard. Zeigt das Lange Format an.<br />
+                            --untracked-files=no : Zeigt keine untracked Files an.<br />
+							--untracked-files=all : Zeigt alle untracked Files als auch die individuellen Dateien an.<br />
                         </BLOCKQUOTE>
                 </p>
             </div>
@@ -70,7 +71,7 @@
 <footer>
     <div class="container text-secondary pt-5 pb-5">
         <b>Quelle der Bilder und Screenshots</b>
-        <a href="https://learngitbranching.js.org/?locale=de_DE">https://learngitbranching.js.org/?locale=de_DE</a>
+		<b>selbst erstellt!</b>
     </div>
 
 </footer>
