@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <title>GIT-Add</title>
+        <link rel="stylesheet" href="default.css"/>
+        <link rel="icon" type="image/png" href="img/main/DHBW-Favicon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+
+        <!--Finger weg-->
+            <header>
+                <div class="wrapper">
+                    <img id="logo" src="img/main/DHBW-Logo.svg" alt="Fancy Logo">
+                    <nav class="main">
+                        <ul>
+                            <li>
+                                <a href="index.html">Start</a>
+                            </li>
+                            <li>
+                                <a href="gitclone.html">Git Clone</a>
+                            </li>
+                            <li>
+                                <a href="git-merge.html">Git Merge</a>
+                            </li>
+                            <li>
+                                <a href="git-pull.html">Git Pull</a>
+                            </li>
+                            <li>
+                                <a href="git-push.html">Git Push</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+
+        <!--Immer noch finger weg-->
+    
+            <section class="main">
+                <div class="keyvisual">
+                    <div class="wrapper">
+                        <div class="teaser">
+                            <!--Hier deinen Text einfügen-->
+                            <h1>GIT-Add</h1>
+                            <h2>Allgemeine Beschreibung zu diesem Befehl</h2>
+                            <p>
+                                „git add“ - Dieser Befehl aktualisiert den Index mit dem aktuellen Inhalt im Arbeitsbereich, um den Inhalt für den nächsten Commit vorzubereiten. Typischerweise wird der gesamte aktuelle Inhalt in existierenden Pfaden hinzugefügt. Mit einigen Optionen kann der Befehl so verwendet werden, dass nur bestimmte Änderungen hinzugefügt werden, oder bestimmte Pfade entfernt werden, die in der Arbeitskopie nicht mehr existieren.
+                            </p>
+
+                            <h2><!--Hier unter Überschrift--></h2>
+                            <p>
+                                Der „Index“ enthält eine Momentaufnahme (snapshot) des Inhalts des Arbeitsbereichs und es ist genau diese Momentaufnahme, die beim nächsten Commit übernommen wird. Nachdem man Änderungen am Arbeitsbereich vorgenommen hat und bevor man den Commit-Befehl ausführt, muss man deshalb den Befehl „add“ verwenden, um alle neuen oder geänderten Dateien zum Index hinzuzufügen.
+                            </p>  
+                                <!--Hier Bilder-->
+                            <img width="70%" src="img/git-add/screen.png" alt="Alle Git-add Befehle">
+            
+                            <p>    
+                                Diese Anweisung kann vor einem Commit mehrfach ausgeführt werden. Es wird lediglich der Inhalt der angegebenen Datei(en) zum Ausführungszeitpunkt hinzugefügt. Soll eine spätere Änderung einer dieser Dateien in den nächsten Commit aufgenommen werden, so muss „git add“ erneut aufgerufen werden.
+
+                            </p>
+                        </div>    
+                    </div>
+            </section>
+        </div>
+        <footer>
+            <div class="wrapper">
+                <nav class="footer">
+                    <b>Quelle der Bilder und Screenshots</b>
+                    <!--Hier deine Quelle-->
+                    <a href="https://git-scm.com/docs/git-add/de">Git-scm.com</a>
+                </nav>
+            </div>
+        </footer>
+    </body>
+</html>
