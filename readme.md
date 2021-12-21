@@ -45,7 +45,7 @@ Kurs_Semester_Semesternummer_Modulnr_Modulname__AufgabeInnerhalbDesKurses
 - div-Container für Formatierung festlegen								Status: ongoing. 	Bearbeiter: Sven
 - css dazu erstellen und in index und Impressum einbinden				Status: ongoing. 	Bearbeiter: Maximilian
 - (jeder) css in „seiner Datei“ einbinden								Status: ongoing. 	Bearbeiter: alle
-- Abbildungsverzeichnis anlegen											Status: ongoing. 	Bearbeiter: Antje
+- Abbildungsverzeichnis anlegen											Status: erledigt. 	Bearbeiter: Antje
 - (jeder) Abbildung in „seiner Datei“ einbinden							Status: ongoing. 	Bearbeiter: alle
 - einer: CSS in allen Dateien einbinden inkl. Umschreiben div-Container	Status: ongoing. 	Bearbeiter: Sven
 - fancy Logo einbinden / Header und Footer auf den Seiten				Status: ongoing. 	Bearbeiter: Heiko
@@ -55,7 +55,7 @@ Kurs_Semester_Semesternummer_Modulnr_Modulname__AufgabeInnerhalbDesKurses
 ### Git-Befehlsaufteilung
 - git pull 				Status: ongoing. 	Bearbeiter: Julian
 - git fetch				Status: ongoing. 	Bearbeiter: Laura
-- git merge				Status: ongoing. 	Bearbeiter: Antje
+- git merge				Status: erledigt. 	Bearbeiter: Antje
 - git push				Status: ongoing. 	Bearbeiter: Maximilian
 - git commit			Status: ongoing. 	Bearbeiter: Sven
 - git branch			Status: ongoing. 	Bearbeiter: Laura
