@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <title>git branch</title>
+        <link rel="stylesheet" href="gitbranch.css"/>
+        <link rel="icon" type="image/png" href="img/main/DHBW-Favicon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+
+        <!--Finger weg-->
+            <header>
+                <div class="wrapper">
+                    <img id="logo" src="img/main/DHBW-Logo.svg" alt="Fancy Logo">
+                    <nav class="main">
+                        <ul>
+                            <li>
+                                <a href="index.html">Start</a>
+                            </li>
+                            <li>
+                                <a href="gitclone.html">Git Clone</a>
+                            </li>
+                            <li>
+                                <a href="git-merge.html">Git Merge</a>
+                            </li>
+                            <li>
+                                <a href="git-pull.html">Git Pull</a>
+                            </li>
+                            <li>
+                                <a href="git-push.html">Git Push</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+
+        <!--Immer noch finger weg-->
+    
+            <section class="main">
+                <div class="keyvisual">
+                    <div class="wrapper">
+                        <div class="teaser">
+                            <h1>Git branch</h1>
+                            <h2>Allgemeine Beschreibung zu diesem Befehl</h2>
+                            <p>
+                                Der Befehl "git branch <name>" erstellt einen Zweig (branch) mit dem angegeben Namen an der Stelle an der man sich befindet (head). Wichtig hierbei ist, dass man erst zu dem gewollten Branch wechseln muss bevor man Änderungen vornehmen kann.
+                            </p>
+
+                            <h2>Git branch - best practices</h2>
+                            <p>
+                                <b>• "Branch early and branch often"</b> Es ist sinnvoll so viele branches wie möglich so früh wie möglich zu erstellen, um zu verhindern dass man im Nachhinein größere Teile der Arbeit nochmal abändern oder sogar löschen muss.<br>
+                                <b>• lieber mehr branches als wenige</b> Es ist besser mehrere branches zu haben, die auch logisch gesehen existieren sollten, als wenige große branches zu haben, die durch ihre Größe unübersichtlich werden.
+                            </p>  
+                                <!--Hier Bilder-->
+                            <img height="250px" src="img/git-branch/GitBranch1.JPG" alt="git branching part 1 (before branching)">
+                            <img height="250px" src="img/git-branch/GitBranch2.JPG" alt="git branching part 2 (after branching)">
+                            <p>    
+                                Vom ersten Bild (links) zum zweiten Bild (rechts) ist der Unterschied, dass rechts ein neuer branch erstellt wurde, an der Stelle an der man sich gerade befunden hat. In diesem Fall der main branch.
+                            </p>
+                        </div>    
+                    </div>
+            </section>
+        </div>
+        <footer>
+            <div class="wrapper">
+                <nav class="footer">
+                    <b>Quelle der Bilder</b>
+                    <!--Hier deine Quelle-->
+                    <a href="https://learngitbranching.js.org/">Learn Git Branching</a>
+                </nav>
+            </div>
+        </footer>
+    </body>
+</html>

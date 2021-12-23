@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <title>git fetch</title>
+        <link rel="stylesheet" href="gitfetch.css"/>
+        <link rel="icon" type="image/png" href="img/main/DHBW-Favicon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+
+        <!--Finger weg-->
+            <header>
+                <div class="wrapper">
+                    <img id="logo" src="img/main/DHBW-Logo.svg" alt="Fancy Logo">
+                    <nav class="main">
+                        <ul>
+                            <li>
+                                <a href="index.html">Start</a>
+                            </li>
+                            <li>
+                                <a href="gitclone.html">Git Clone</a>
+                            </li>
+                            <li>
+                                <a href="git-merge.html">Git Merge</a>
+                            </li>
+                            <li>
+                                <a href="git-pull.html">Git Pull</a>
+                            </li>
+                            <li>
+                                <a href="git-push.html">Git Push</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+
+        <!--Immer noch finger weg-->
+    
+            <section class="main">
+                <div class="keyvisual">
+                    <div class="wrapper">
+                        <div class="teaser">
+                            <h1>Git fetch</h1>
+                            <h2>Allgemeine Beschreibung zu diesem Befehl</h2>
+                            <p>
+                                Der Befehl "git fetch" holt Daten von einem remote Repository in das lokale Repository. Er sorgt also dafür, dass die Commits heruntergeladen werden, die das remote Repository hat, das lokale aber nicht. Außredem updated er wohin die remote branches zeigen und synchronisiert damit die lokale Repräsentation des remote Repository mit dem tatsächlichen Zustand des remote Repository. Es wird über das Internet (via Protokolle wie http:// oder git://) mit dem Git Repository kommuniziert.<br>
+                                Es ist allerdings zu beachten, dass der Download-Schritt <b>nicht</b> dafür sorgt, dass das lokale Repository dem remote Repository gleicht!
+                            </p> 
+                                <!--Hier Bilder-->
+                            <img height="250px" src="img/git-fetch/GitFetch1.JPG" alt="git fetch before">
+                            <img height="250px" src="img/git-fetch/GitFetch2.JPG" alt="git fetch after">
+                            <p>    
+                                Vom ersten Bild (links) zum zweiten Bild (rechts) ist der Unterschied, dass rechts ein neuer branch erstellt wurde, an der Stelle an der man sich gerade befunden hat. In diesem Fall der main branch.
+                            </p>
+                        </div>    
+                    </div>
+            </section>
+        </div>
+        <footer>
+            <div class="wrapper">
+                <nav class="footer">
+                    <b>Quelle der Bilder</b>
+                    <!--Hier deine Quelle-->
+                    <a href="https://learngitbranching.js.org/">Learn Git Branching</a>
+                </nav>
+            </div>
+        </footer>
+    </body>
+</html>
