@@ -40,26 +40,26 @@ Kurs_Semester_Semesternummer_Modulnr_Modulname__AufgabeInnerhalbDesKurses
 
 ### Aufgaben: 
 - index-html erstellen.  												Status: erledigt. 	Bearbeiter: Julian
-- Git Befehlserklärung in die Index.html 								Status: ongoing. 	Bearbeiter: Olga
-- Impressum erstellen. 													Status: ongoing. 	Bearbeiter: Anna-Lena
-- div-Container für Formatierung festlegen								Status: ongoing. 	Bearbeiter: Sven
-- css dazu erstellen und in index und Impressum einbinden				Status: ongoing. 	Bearbeiter: Maximilian
-- (jeder) css in „seiner Datei“ einbinden								Status: ongoing. 	Bearbeiter: alle
+- Git Befehlserklärung in die Index.html 								Status: erledigt. 	Bearbeiter: Olga
+- Impressum erstellen. 													Status: erledigt. 	Bearbeiter: Anna-Lena
+- div-Container für Formatierung festlegen								Status: erledigt. 	Bearbeiter: Sven
+- css dazu erstellen und in index und Impressum einbinden				Status: erledigt. 	Bearbeiter: Maximilian
+- (jeder) css in „seiner Datei“ einbinden								Status: erledigt. 	Bearbeiter: alle
 - Abbildungsverzeichnis anlegen											Status: erledigt. 	Bearbeiter: Antje
-- (jeder) Abbildung in „seiner Datei“ einbinden							Status: ongoing. 	Bearbeiter: alle
-- einer: CSS in allen Dateien einbinden inkl. Umschreiben div-Container	Status: ongoing. 	Bearbeiter: Sven
-- fancy Logo einbinden / Header und Footer auf den Seiten				Status: ongoing. 	Bearbeiter: Heiko
-- Korrekturlesen auf inhaltliche Korrektheit 							Status: ongoing. 	Bearbeiter: Laura
-- Prüfung auf grafische Korrektheit										Status: ongoing. 	Bearbeiter: Laura
+- (jeder) Abbildung in „seiner Datei“ einbinden							Status: erledigt. 	Bearbeiter: alle
+- einer: CSS in allen Dateien einbinden inkl. Umschreiben div-Container	Status: erledigt. 	Bearbeiter: Sven
+- fancy Logo einbinden / Header und Footer auf den Seiten				Status: erledigt. 	Bearbeiter: Heiko
+- Korrekturlesen auf inhaltliche Korrektheit 							Status: erledigt. 	Bearbeiter: Laura
+- Prüfung auf grafische Korrektheit										Status: erledigt. 	Bearbeiter: Laura
 
 ### Git-Befehlsaufteilung
-- git pull 				Status: ongoing. 	Bearbeiter: Julian
-- git fetch				Status: ongoing. 	Bearbeiter: Laura
+- git pull 				Status: erledigt. 	Bearbeiter: Julian
+- git fetch				Status: erledigt. 	Bearbeiter: Laura
 - git merge				Status: erledigt. 	Bearbeiter: Antje
-- git push				Status: ongoing. 	Bearbeiter: Maximilian
-- git commit			Status: ongoing. 	Bearbeiter: Sven
-- git branch			Status: ongoing. 	Bearbeiter: Laura
-- git clone				Status: ongoing. 	Bearbeiter: Olga
-- git add				Status: ongoing. 	Bearbeiter: Heiko
-- git status			Status: ongoing. 	Bearbeiter: Sven
-- git checkout			Status: ongoing. 	Bearbeiter: Anna-Lena
+- git push				Status: erledigt. 	Bearbeiter: Maximilian
+- git commit			Status: erledigt. 	Bearbeiter: Sven
+- git branch			Status: erledigt. 	Bearbeiter: Laura
+- git clone				Status: erledigt. 	Bearbeiter: Olga
+- git add				  Status: erledigt. 	Bearbeiter: Heiko
+- git status			Status: erledigt. 	Bearbeiter: Sven
+- git checkout		Status: erledigt. 	Bearbeiter: Anna-Lena
