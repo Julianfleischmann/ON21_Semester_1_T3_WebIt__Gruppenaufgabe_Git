@@ -26,7 +26,9 @@ Julian Fleischmann
 Heiko König
 @Heikoenig
 
-STATUS: Aufgabe ist in Arbeit
+STATUS: erledigt
+
+Link zum Repo: https://github.com/Julianfleischmann/ON21_Semester_1_T3_WebIt__Gruppenaufgabe_Git
 
 ### Naming-Convention of the repo:
 ON21_Semester_1_T3_WebIt__Gruppenaufgabe_Git
