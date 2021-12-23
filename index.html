@@ -1,44 +1,44 @@
 <!DOCTYPE html>
 <html lang="de">
-    <head>
-        <meta charset="UTF-8">
-        <title>Git Befehle</title>
-        <link rel="stylesheet" href="default.css"/>
-        <link rel="icon" type="image/png" href="img/main/DHBW-Favicon.png">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    <body>
-        <header>
-                <div class="wrapper">
-                <img id="logo" src="img/main/DHBW-Logo.svg" alt="Fancy Logo">
-                <nav class="main">
-					<ul>
-						<li>
-							<a href="index.html">Start</a>
-						</li>
-						<li>
-							<a href="gitclone.html">Git Clone</a>
-						</li>
-						<li>
-							<a href="git-merge.html">Git Merge</a>
-						</li>
-						<li>
-							<a href="git-pull.html">Git Pull</a>
-						</li>
-                        <li>
-							<a href="git-push.html">Git Push</a>
-						</li>
-					</ul>
-				</nav>
-			</div>
-		</header>
 
-        <section class="main">
-            <div class="keyvisual">
-                <div class="wrapper">
-                    <div class="teaser">
+<head>
+    <meta charset="UTF-8">
+    <title>Git Befehle</title>
+    <link rel="stylesheet" href="default.css" />
+    <link rel="icon" type="image/png" href="img/main/DHBW-Favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <header>
+        <div class="wrapper">
+            <img id="logo" src="img/main/DHBW-Logo.svg" alt="Fancy Logo">
+            <nav class="main">
+                <ul>
+                    <li>
+                        <a href="index.html">Start</a>
+                    </li>
+                    <li>
+                        <a href="gitclone.html">Git Clone</a>
+                    </li>
+                    <li>
+                        <a href="git-merge.html">Git Merge</a>
+                    </li>
+                    <li>
+                        <a href="git-pull.html">Git Pull</a>
+                    </li>
+                    <li>
+                        <a href="git-push.html">Git Push</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="main">
+        <div class="wrapper">
             <h1>Git Befehle</h1>
-            <img width="100%" src="Abbildung.png" alt="Abbildung von Learn Git Branching"/>
+            <img width="100%" src="Abbildung.png" alt="Abbildung von Learn Git Branching" />
             <p>Git ist das am weitesten verbreitete Versionsverwaltungssystem der Welt. Das Programm, das 2005 von Linus Torvalds entwickelt wurde, ist für viele Softwareentwickler unverzichtbar geworden.</p>
             <p>Kommerzielle und Open-Source-Projekte vertrauen auf Git.</p>
             <p>Doch was wäre die Software ohne ihre Befehle? Auf dieser Webseite möchten wir uns achtzehn der wichtigsten Git Befehle einmal näher ansehen.</p>
@@ -61,15 +61,15 @@
             <h2>Datei zum Index hinzufügen</h2>
             <p><strong>git add [file]</strong></p>
             <p>Mit dem Befehl git add werden Änderungen aus dem Arbeitsverzeichnis zur Staging-Umgebung hinzugefügt. Damit wird git angewiesen, Aktualisierungen einer bestimmten Datei in den nächsten Commit aufzunehmen. Der Befehl hat also bis zur nächsten Ausführung von git commit keine Auswirkung auf das Repository.</p>
-            <p><a href="">mehr erfahren</a></p>
+            <p><a href="git-add.html">mehr erfahren</a></p>
             <h2>Änderungen speichern</h2>
             <p><strong>git commit</strong></p>
             <p>Durch die Ausführung von git commit wird ein commit, also ein Schnappschuss des Repositorys erstellt. Commits sind Momentaufnahmen des gesamten Repositorys zu einem bestimmten Zeitpunkt. Git commit sollte häufig und basierend auf logischen Änderungseinheiten ausgeführt werden. Über commits kann im Nachhinein die Entstehung des Repositorys nachvollzogen werden. Neben dem Inhalt enthalten sie Metadaten wie den Autor und den Zeitstempel.</p>
-            <p><a href="">mehr erfahren</a></p>
+            <p><a href="git-commit.html">mehr erfahren</a></p>
             <h2>Herunterladen</h2>
             <p><strong>git fetch</strong></p>
             <p>Um Dateien, commits und branches aus einem remote-Repository in ein lokales Repository herunterzuladen, gibt es den Befehl git fetch. Bei der Ausführung werden die Inhalte zwar heruntergeladen, es folgt aber keine automatische Aktualisierung der Dateien im lokalen Repository. Die aktuelle Arbeit bleibt also „sicher“. Das Abrufen des Befehls ist vor allem dann interessant, wenn man wissen möchte auf was für einem Arbeitsstand andere Teammitglieder sind</p>
-            <p><a href="">mehr erfahren</a></p>
+            <p><a href="git-fetch.html">mehr erfahren</a></p>
             <h2>Verschmelzung</h2>
             <p><strong>git merge</strong></p>
             <p>Git merge wir genutzt, um einen oder mehrere branches in den ausgecheckten branch zusammenzuführen. Es können also unabhängige Entwicklungszweige in einen einzigen branch integriert werden. Mit git merge werden mehrere commit-Abfolgen in einen einheitlichen Verlauf gebracht. Vor allem genutzt wird es aber, um zwei branches zu vereinen.</p>
@@ -85,11 +85,11 @@
             <h2>Neuer Zweig / branch</h2>
             <p><strong>git branch [branch-name]</strong></p>
             <p>Mit dem Befehl git branch [branch-name] wird ein neuer branch erstellt. Dieser wird bei der Erstellung auch direkt benannt. Der neue branch wird allerdings nicht automatisch ausgecheckt.</p>
-            <p><a href="">mehr erfahren</a></p>
+            <p><a href="git-branch.html">mehr erfahren</a></p>
             <h2>Einen Zweig / branch wechseln</h2>
             <p><strong>git checkout [branch-name]</strong></p>
             <p>Zwischen branches, die mit git branch erstellt wurden, kann mit dem Befehl git checkout gewechselt werden. Der branch, der gerade ausgecheckt ist, kann bearbeitet werden. Beim Auschecken eines branches werden die Dateien im Arbeitsverzeichnis aktualisiert und Git speichert alle neuen commits in dem ausgecheckten branch. Man kann also auswählen an welchem Entwicklungszweig man arbeiten möchte.</p>
-            <p><a href="">mehr erfahren</a></p>
+            <p><a href="git-checkout.html">mehr erfahren</a></p>
             <h2>Löschen eines Zweiges / branches</h2>
             <p><strong>git branch -d [branch-name]</strong></p>
             <p>Durch git branch -d kann der ausgewählte branch gelöscht werden.</p>
@@ -105,35 +105,35 @@
             <h2>Status anzeigen</h2>
             <p><strong>git status</strong></p>
             <p>Der Befehl git status gibt den Status des Arbeitsverzeichnisses und der Staging-Umgebung zurück. So kann man sehen, welche Änderungen sich in der Staging-Umgebung befinden, welche nicht und welche Dateien nicht von Git verfolgt werden.</p>
-            <p><a href="">mehr erfahren</a></p>
-        </div>    
-    </div>
-</section>
-</div>
-<footer>
-<div class="wrapper">
-<nav class="footer">
-    <b>Quelle</b>
-    <ul>
-        <li> <a href="https://www.atlassian.com/de/git/tutorials/setting-up-a-repository/git-init" >Git-init</a></li>
-        <li> <a href="https://www.atlassian.com/de/git/tutorials/what-is-git" >What is git</a></li>
-        <li> <a href="https://www.atlassian.com/de/git/tutorials/setting-up-a-repository/git-clone" >Git-clone</a></li>
-        <li> <a href="https://git-scm.com/book/de/v2/Git-Grundlagen-Anzeigen-der-Commit-Historie" >Git Grundlagen Anzeigen der Commit Historie</a></li>
-        <li> <a href="https://www.atlassian.com/de/git/tutorials/saving-changes/git-diff" >Git diff</a></li>
-        <li> <a href="https://git-scm.com/docs/git-show" >Git show</a></li>
-        <li> <a href="https://www.atlassian.com/de/git/tutorials/git-show" >Git show</a></li>
-        <li> <a href="https://www.atlassian.com/de/git/tutorials/saving-changes" >Saving changes</a></li>
-        <li> <a href="https://github.com/git-guides/git-commit" >Git commit</a></li>
-        <li> <a href="https://www.atlassian.com/de/git/tutorials/syncing/git-fetch" >Git fetch</a></li>
-        <li> <a href="https://www.atlassian.com/de/git/tutorials/using-branches/git-merge" >Git merge</a></li>
-        <li> <a href="https://git-scm.com/book/de/v2/Anhang-C%3A-Git-Kommandos-Branching-und-Merging" >Kommandos Branching und Merging</a></li>
-        <li> <a href="https://www.atlassian.com/de/git/tutorials/using-branches/git-checkout" >Git-checkout</a></li>
-        <li> <a href="https://www.atlassian.com/de/git/tutorials/rewriting-history/git-rebase" >Git-rebase</a></li>
-        <li> <a href="https://www.atlassian.com/de/git/tutorials/inspecting-a-repository/git-tag" >Git-tag</a></li>
-        <li> <a href="https://www.atlassian.com/de/git/tutorials/inspecting-a-repository" >Inspecting a repository</a></li>
-    </ul>
-</nav>
-</div>
-</footer>
+            <p><a href="git-status.html">mehr erfahren</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="wrapper">
+            <nav class="footer">
+                <h3>Quellenangaben</h3>
+                <ul>
+                    <li> <a href="https://www.atlassian.com/de/git/tutorials/setting-up-a-repository/git-init">Git-init</a></li>
+                    <li> <a href="https://www.atlassian.com/de/git/tutorials/what-is-git">What is git</a></li>
+                    <li> <a href="https://www.atlassian.com/de/git/tutorials/setting-up-a-repository/git-clone">Git-clone</a></li>
+                    <li> <a href="https://git-scm.com/book/de/v2/Git-Grundlagen-Anzeigen-der-Commit-Historie">Git Grundlagen Anzeigen der Commit Historie</a></li>
+                    <li> <a href="https://www.atlassian.com/de/git/tutorials/saving-changes/git-diff">Git diff</a></li>
+                    <li> <a href="https://git-scm.com/docs/git-show">Git show</a></li>
+                    <li> <a href="https://www.atlassian.com/de/git/tutorials/git-show">Git show</a></li>
+                    <li> <a href="https://www.atlassian.com/de/git/tutorials/saving-changes">Saving changes</a></li>
+                    <li> <a href="https://github.com/git-guides/git-commit">Git commit</a></li>
+                    <li> <a href="https://www.atlassian.com/de/git/tutorials/syncing/git-fetch">Git fetch</a></li>
+                    <li> <a href="https://www.atlassian.com/de/git/tutorials/using-branches/git-merge">Git merge</a></li>
+                    <li> <a href="https://git-scm.com/book/de/v2/Anhang-C%3A-Git-Kommandos-Branching-und-Merging">Kommandos Branching und Merging</a></li>
+                    <li> <a href="https://www.atlassian.com/de/git/tutorials/using-branches/git-checkout">Git-checkout</a></li>
+                    <li> <a href="https://www.atlassian.com/de/git/tutorials/rewriting-history/git-rebase">Git-rebase</a></li>
+                    <li> <a href="https://www.atlassian.com/de/git/tutorials/inspecting-a-repository/git-tag">Git-tag</a></li>
+                    <li> <a href="https://www.atlassian.com/de/git/tutorials/inspecting-a-repository">Inspecting a repository</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
 </body>
+
 </html>

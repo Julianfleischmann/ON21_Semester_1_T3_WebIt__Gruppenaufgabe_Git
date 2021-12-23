@@ -63,13 +63,6 @@ nav.main a:hover {
 
 
 
-.keyvisual {
-	background-image: url(keyvisual.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	min-height: 800px;
-	position: relative;
-}
 .keyvisual:after {
 	content: "";
 	display: block;
